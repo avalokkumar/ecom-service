@@ -1,0 +1,260 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Maven template
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+!/.mvn/wrapper/maven-wrapper.jar
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+### Grails template
+# .gitignore for Grails 1.2 and 1.3
+# Although this should work for most versions of grails, it is
+# suggested that you use the "grails integrate-with --git" command
+# to generate your .gitignore file.
+
+# web application files
+/web-app/WEB-INF/classes
+
+# default HSQL database files for production mode
+/prodDb.*
+
+# general HSQL database files
+*Db.properties
+*Db.script
+
+# logs
+/stacktrace.log
+/test/reports
+/logs
+
+# project release file
+/*.war
+
+# plugin release files
+/*.zip
+/plugin.xml
+
+# older plugin install locations
+/plugins
+/web-app/plugins
+
+# "temporary" build files
+/target
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+### Gradle template
+.gradle
+/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+.idea/checkstyle-idea.xml
+.idea/ecom-service.iml
+.idea/encodings.xml
+.idea/modules.xml
+.idea/sonarlint/
+ecom-analytic-service/src/main/java/com/clayman/ecom/config/
+ecom-analytic-service/src/main/java/com/clayman/ecom/controller/
+ecom-analytic-service/src/main/java/com/clayman/ecom/entity/
+ecom-analytic-service/src/main/java/com/clayman/ecom/exception/
+ecom-analytic-service/src/main/java/com/clayman/ecom/handler/
+ecom-analytic-service/src/main/java/com/clayman/ecom/model/
+ecom-analytic-service/src/main/java/com/clayman/ecom/repository/
+ecom-analytic-service/src/main/java/com/clayman/ecom/service/
+ecom-analytic-service/src/main/java/com/clayman/ecom/util/
+ecom-analytic-service/src/main/resources/static/
+ecom-analytic-service/src/main/resources/templates/
+ecom-customer-registration-service/src/main/java/com/clayman/ecom/config/
+ecom-customer-registration-service/src/main/java/com/clayman/ecom/controller/
+ecom-customer-registration-service/src/main/java/com/clayman/ecom/entity/
+ecom-customer-registration-service/src/main/java/com/clayman/ecom/exception/
+ecom-customer-registration-service/src/main/java/com/clayman/ecom/handler/
+ecom-customer-registration-service/src/main/java/com/clayman/ecom/model/
+ecom-customer-registration-service/src/main/java/com/clayman/ecom/repository/
+ecom-customer-registration-service/src/main/java/com/clayman/ecom/service/
+ecom-customer-registration-service/src/main/java/com/clayman/ecom/util/
+ecom-customer-registration-service/src/main/resources/static/
+ecom-customer-registration-service/src/main/resources/templates/
+ecom-customer-verification-service/src/main/java/com/clayman/ecom/config/
+ecom-customer-verification-service/src/main/java/com/clayman/ecom/controller/
+ecom-customer-verification-service/src/main/java/com/clayman/ecom/entity/
+ecom-customer-verification-service/src/main/java/com/clayman/ecom/exception/
+ecom-customer-verification-service/src/main/java/com/clayman/ecom/handler/
+ecom-customer-verification-service/src/main/java/com/clayman/ecom/model/
+ecom-customer-verification-service/src/main/java/com/clayman/ecom/repository/
+ecom-customer-verification-service/src/main/java/com/clayman/ecom/service/
+ecom-customer-verification-service/src/main/java/com/clayman/ecom/util/
+ecom-customer-verification-service/src/main/resources/static/
+ecom-customer-verification-service/src/main/resources/templates/
+ecom-fulfillment-service/src/main/java/com/clayman/ecom/config/
+ecom-fulfillment-service/src/main/java/com/clayman/ecom/controller/
+ecom-fulfillment-service/src/main/java/com/clayman/ecom/entity/
+ecom-fulfillment-service/src/main/java/com/clayman/ecom/exception/
+ecom-fulfillment-service/src/main/java/com/clayman/ecom/handler/
+ecom-fulfillment-service/src/main/java/com/clayman/ecom/model/
+ecom-fulfillment-service/src/main/java/com/clayman/ecom/repository/
+ecom-fulfillment-service/src/main/java/com/clayman/ecom/service/
+ecom-fulfillment-service/src/main/java/com/clayman/ecom/util/
+ecom-fulfillment-service/src/main/resources/static/
+ecom-fulfillment-service/src/main/resources/templates/
+ecom-inventory-service/src/main/java/com/clayman/ecom/config/
+ecom-inventory-service/src/main/java/com/clayman/ecom/controller/
+ecom-inventory-service/src/main/java/com/clayman/ecom/entity/
+ecom-inventory-service/src/main/java/com/clayman/ecom/exception/
+ecom-inventory-service/src/main/java/com/clayman/ecom/handler/
+ecom-inventory-service/src/main/java/com/clayman/ecom/model/
+ecom-inventory-service/src/main/java/com/clayman/ecom/repository/
+ecom-inventory-service/src/main/java/com/clayman/ecom/service/
+ecom-inventory-service/src/main/java/com/clayman/ecom/util/
+ecom-inventory-service/src/main/resources/static/
+ecom-inventory-service/src/main/resources/templates/
+ecom-payment-service/src/main/java/com/clayman/ecom/config/
+ecom-payment-service/src/main/java/com/clayman/ecom/controller/
+ecom-payment-service/src/main/java/com/clayman/ecom/encryption/
+ecom-payment-service/src/main/java/com/clayman/ecom/entity/
+ecom-payment-service/src/main/java/com/clayman/ecom/exception/
+ecom-payment-service/src/main/java/com/clayman/ecom/handler/
+ecom-payment-service/src/main/java/com/clayman/ecom/model/
+ecom-payment-service/src/main/java/com/clayman/ecom/repository/
+ecom-payment-service/src/main/java/com/clayman/ecom/security/
+ecom-payment-service/src/main/java/com/clayman/ecom/service/
+ecom-payment-service/src/main/java/com/clayman/ecom/util/
+ecom-payment-service/src/main/resources/static/
+ecom-payment-service/src/main/resources/templates/
+ecom-product-catalog-service/src/main/java/com/clayman/ecom/batch/
+ecom-product-catalog-service/src/main/java/com/clayman/ecom/config/
+ecom-product-catalog-service/src/main/java/com/clayman/ecom/controller/
+ecom-product-catalog-service/src/main/java/com/clayman/ecom/entity/
+ecom-product-catalog-service/src/main/java/com/clayman/ecom/exception/
+ecom-product-catalog-service/src/main/java/com/clayman/ecom/handler/
+ecom-product-catalog-service/src/main/java/com/clayman/ecom/model/
+ecom-product-catalog-service/src/main/java/com/clayman/ecom/repository/
+ecom-product-catalog-service/src/main/java/com/clayman/ecom/service/
+ecom-product-catalog-service/src/main/java/com/clayman/ecom/util/
+ecom-product-catalog-service/src/main/resources/static/
+ecom-product-catalog-service/src/main/resources/templates/
+ecom-shipment-service/src/main/java/com/clayman/ecom/config/
+ecom-shipment-service/src/main/java/com/clayman/ecom/controller/
+ecom-shipment-service/src/main/java/com/clayman/ecom/entity/
+ecom-shipment-service/src/main/java/com/clayman/ecom/exception/
+ecom-shipment-service/src/main/java/com/clayman/ecom/handler/
+ecom-shipment-service/src/main/java/com/clayman/ecom/model/
+ecom-shipment-service/src/main/java/com/clayman/ecom/repository/
+ecom-shipment-service/src/main/java/com/clayman/ecom/service/
+ecom-shipment-service/src/main/java/com/clayman/ecom/util/
+ecom-shipment-service/src/main/resources/static/
+ecom-shipment-service/src/main/resources/templates/
+ecom-shop-service/src/main/java/com/clayman/ecom/config/
+ecom-shop-service/src/main/java/com/clayman/ecom/controller/
+ecom-shop-service/src/main/java/com/clayman/ecom/entity/
+ecom-shop-service/src/main/java/com/clayman/ecom/exception/
+ecom-shop-service/src/main/java/com/clayman/ecom/handler/
+ecom-shop-service/src/main/java/com/clayman/ecom/model/
+ecom-shop-service/src/main/java/com/clayman/ecom/repository/
+ecom-shop-service/src/main/java/com/clayman/ecom/service/
+ecom-shop-service/src/main/java/com/clayman/ecom/util/
+ecom-shop-service/src/main/resources/static/
+ecom-shop-service/src/main/resources/templates/
+ecom-warehouse-service/src/main/java/com/clayman/ecom/config/
+ecom-warehouse-service/src/main/java/com/clayman/ecom/controller/
+ecom-warehouse-service/src/main/java/com/clay
+man/ecom/entity/
+ecom-warehouse-service/src/main/java/com/clayman/ecom/exception/
+ecom-warehouse-service/src/main/java/com/clayman/ecom/handler/
+ecom-warehouse-service/src/main/java/com/clayman/ecom/model/
+ecom-warehouse-service/src/main/java/com/clayman/ecom/repository/
+ecom-warehouse-service/src/main/java/com/clayman/ecom/service/
+ecom-warehouse-service/src/main/java/com/clayman/ecom/util/
+ecom-warehouse-service/src/main/resources/static/
+ecom-warehouse-service/src/main/resources/templates/
