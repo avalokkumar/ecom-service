@@ -1,7 +1,7 @@
 # ecom-service
-##Microservices for ecommerce platform
+Microservices for ecommerce platform
 
-##Ecom Manager
+Ecom Manager
 
 ecom-shop-service - service to provide omnichannel experience to its customers
 
